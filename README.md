@@ -31,7 +31,7 @@ This project is a simple multi-page web application built using **HTML**, **CSS*
 
 ## Bonus Section
 
-- **Star Rating Widget**: After the form is submitted, a star rating system allows users to rate the experience from 1 to 5 stars. The rating is displayed below the stars.
+- **Star Rating Widget**: After the form is submitted, a star rating system allows users to rate the experience from 1 to 5 stars. The rating is displayed after clicking the submit button.
 
 ## How to Run Locally
 
