@@ -31,14 +31,14 @@ This project is a simple multi-page web application built using **HTML**, **CSS*
 
 ## Bonus Section
 
-- **Star Rating Widget**: After the form is submitted, a star rating system allows users to rate the experience from 1 to 5 stars. The rating is displayed below the stars.
+- **Star Rating Widget**: After the form is submitted, a star rating system allows users to rate the experience from 1 to 5 stars. The rating is displayed after clicking the submit button.
 
 ## How to Run Locally
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/ntwist-frontend-assignment.git
+   git clone https://github.com/Vaibhav4228/ntwist-frontend-assignment.git
    ```
 
 2. Open the HTML files (`index.html`, `sort.html`, `faq.html`) directly in your browser.
