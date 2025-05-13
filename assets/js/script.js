@@ -1,7 +1,19 @@
-document.getElementById('contactForm').addEventListener('submit', function (e) {
-    e.preventDefault();
+let form = document.getElementById('contactForm');
+let startTime;
+let endTime;
 
-    this.style.display = 'none';
+form.addEventListener('focusin', () => {
+    if (!startTime) startTime = Date.now();
+});
+
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    endTime = Date.now();
+    let timeSpent = (endTime - startTime) / 1000;
+    alert(`You spent ${timeSpent} seconds filling out the form.`);
+
+    form.reset();
 
     document.getElementById('confirmationMessage').style.display = 'block';
 
@@ -15,6 +27,7 @@ stars.forEach((label, index) => {
         stars.forEach((l, i) => {
             l.querySelector('span').style.color = i <= selectedIndex ? 'gold' : 'lightgray';
         });
+
         console.log(`Selected Rating: ${5 - selectedIndex}`);
     });
 });

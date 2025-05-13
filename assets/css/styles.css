@@ -20,10 +20,10 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -44,6 +44,7 @@ textarea {
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-bottom: 10px;
 }
 
 button {
@@ -55,6 +56,7 @@ button {
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
@@ -70,15 +72,16 @@ button:hover {
 
 .rating {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .rating label {
     cursor: pointer;
-    font-size: 24px;
+    font-size: 30px;
     color: lightgray;
+    margin: 0 5px;
     transition: color 0.3s;
 }
 
