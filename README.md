@@ -38,7 +38,7 @@ This project is a simple multi-page web application built using **HTML**, **CSS*
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/ntwist-frontend-assignment.git
+   git clone https://github.com/Vaibhav4228/ntwist-frontend-assignment.git
    ```
 
 2. Open the HTML files (`index.html`, `sort.html`, `faq.html`) directly in your browser.
